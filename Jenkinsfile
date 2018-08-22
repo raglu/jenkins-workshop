@@ -1,6 +1,6 @@
 node {
    stage('Preperation'){
-       git credentialsId: 'raglu', url: 'git@github.com:raglu/jenkins-workshop.git'
+       git checkout scm
    }
    stage('Build'){
        sh 'mvn clean package'
