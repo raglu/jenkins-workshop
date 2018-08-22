@@ -6,6 +6,8 @@ import org.junit.Test;
 
 public class GildedRoseTest {
 
+    //this is a comment
+
     @Test
     public void foo() {
         Item[] items = new Item[] { new Item("foo", 0, 0) };
